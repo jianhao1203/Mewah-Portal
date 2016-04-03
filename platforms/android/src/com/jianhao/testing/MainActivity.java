@@ -17,7 +17,7 @@
        under the License.
  */
 
-package com.mewahgroup.portal;
+package com.jianhao.testing;
 
 import android.os.Bundle;
 import org.apache.cordova.*;
