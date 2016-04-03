@@ -23,7 +23,7 @@
     </feature>
     <preference name="Fullscreen" value="true" />
     <allow-intent href="market:*" />
-    <name>Mewah Group</name>
+    <name>Jian Hao</name>
     <description>Hello World sample application that responds to the deviceready event.</description>
     <author email="support@phonegap.com" href="http://phonegap.com">PhoneGap Team</author>
     <content src="index.html" />
