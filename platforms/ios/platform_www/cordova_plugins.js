@@ -40,14 +40,6 @@ module.exports = [
         "clobbers": [
             "navigator.splashscreen"
         ]
-    },
-    {
-        "file": "plugins/phonegap-plugin-push/www/push.js",
-        "id": "phonegap-plugin-push.PushNotification",
-        "pluginId": "phonegap-plugin-push",
-        "clobbers": [
-            "PushNotification"
-        ]
     }
 ];
 module.exports.metadata = 

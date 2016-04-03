@@ -47,13 +47,6 @@ module.exports = [
         "file": "plugins/cordova-plugin-whitelist/whitelist.js",
         "id": "cordova-plugin-whitelist.whitelist",
         "runs": true
-    },
-    {
-        "file": "plugins/phonegap-plugin-push/www/push.js",
-        "id": "phonegap-plugin-push.PushNotification",
-        "clobbers": [
-            "PushNotification"
-        ]
     }
 ];
 module.exports.metadata = 
@@ -63,8 +56,7 @@ module.exports.metadata =
     "cordova-plugin-dialogs": "1.2.0",
     "cordova-plugin-network-information": "1.2.0",
     "cordova-plugin-splashscreen": "3.2.1",
-    "cordova-plugin-whitelist": "1.2.1",
-    "phonegap-plugin-push": "1.6.0"
+    "cordova-plugin-whitelist": "1.2.1"
 };
 // BOTTOM OF METADATA
 });

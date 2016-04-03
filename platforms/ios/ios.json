@@ -23,22 +23,13 @@
                         {
                             "xml": "<feature name=\"SplashScreen\"><param name=\"ios-package\" value=\"CDVSplashScreen\" /><param name=\"onload\" value=\"true\" /></feature>",
                             "count": 1
-                        },
-                        {
-                            "xml": "<feature name=\"PushNotification\"><param name=\"ios-package\" value=\"PushPlugin\" /></feature>",
-                            "count": 1
                         }
                     ]
                 }
             },
             "*-Info.plist": {
                 "parents": {
-                    "UIBackgroundModes": [
-                        {
-                            "xml": "<array><string>remote-notification</string></array>",
-                            "count": 1
-                        }
-                    ]
+                    "UIBackgroundModes": []
                 }
             }
         }
@@ -57,10 +48,6 @@
             "PACKAGE_NAME": "com.wtf.wth"
         },
         "cordova-plugin-whitelist": {
-            "PACKAGE_NAME": "com.wtf.wth"
-        },
-        "phonegap-plugin-push": {
-            "SENDER_ID": "263977057230",
             "PACKAGE_NAME": "com.wtf.wth"
         }
     },
@@ -105,14 +92,6 @@
             "pluginId": "cordova-plugin-splashscreen",
             "clobbers": [
                 "navigator.splashscreen"
-            ]
-        },
-        {
-            "file": "plugins/phonegap-plugin-push/www/push.js",
-            "id": "phonegap-plugin-push.PushNotification",
-            "pluginId": "phonegap-plugin-push",
-            "clobbers": [
-                "PushNotification"
             ]
         }
     ]
