@@ -31,10 +31,6 @@
                         {
                             "xml": "<feature name=\"HiddenStatusbarOverlay\"><param name=\"ios-package\" value=\"APPHiddenStatusbarOverlay\" /></feature>",
                             "count": 1
-                        },
-                        {
-                            "xml": "<feature name=\"PushNotification\"><param name=\"ios-package\" value=\"PushPlugin\" /></feature>",
-                            "count": 1
                         }
                     ]
                 }
@@ -52,24 +48,6 @@
                             "xml": "<false />",
                             "count": 1
                         }
-                    ],
-                    "UIBackgroundModes": [
-                        {
-                            "xml": "<array><string>remote-notification</string></array>",
-                            "count": 1
-                        }
-                    ],
-                    "GCM_SENDER_ID": [
-                        {
-                            "xml": "<string>263977051234</string>",
-                            "count": 1
-                        }
-                    ],
-                    "IS_GCM_ENABLED": [
-                        {
-                            "xml": "<true />",
-                            "count": 1
-                        }
                     ]
                 }
             }
@@ -77,26 +55,22 @@
     },
     "installed_plugins": {
         "cordova-plugin-device": {
-            "PACKAGE_NAME": "com.jianhao.testing"
+            "PACKAGE_NAME": "com.wtf.wth"
         },
         "cordova-plugin-dialogs": {
-            "PACKAGE_NAME": "com.jianhao.testing"
+            "PACKAGE_NAME": "com.wtf.wth"
         },
         "cordova-plugin-network-information": {
-            "PACKAGE_NAME": "com.jianhao.testing"
+            "PACKAGE_NAME": "com.wtf.wth"
         },
         "cordova-plugin-splashscreen": {
-            "PACKAGE_NAME": "com.jianhao.testing"
+            "PACKAGE_NAME": "com.wtf.wth"
         },
         "cordova-plugin-whitelist": {
-            "PACKAGE_NAME": "com.jianhao.testing"
+            "PACKAGE_NAME": "com.wtf.wth"
         },
         "de.appplant.cordova.plugin.hidden-statusbar-overlay": {
-            "PACKAGE_NAME": "com.jianhao.testing"
-        },
-        "phonegap-plugin-push": {
-            "SENDER_ID": "263977051234",
-            "PACKAGE_NAME": "com.jianhao.testing"
+            "PACKAGE_NAME": "com.wtf.wth"
         }
     },
     "dependent_plugins": {},
@@ -148,14 +122,6 @@
             "pluginId": "de.appplant.cordova.plugin.hidden-statusbar-overlay",
             "clobbers": [
                 "plugin.statusbarOverlay"
-            ]
-        },
-        {
-            "file": "plugins/phonegap-plugin-push/www/push.js",
-            "id": "phonegap-plugin-push.PushNotification",
-            "pluginId": "phonegap-plugin-push",
-            "clobbers": [
-                "PushNotification"
             ]
         }
     ]
