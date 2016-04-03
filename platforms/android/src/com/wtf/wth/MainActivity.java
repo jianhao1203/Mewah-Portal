@@ -17,7 +17,7 @@
        under the License.
  */
 
-package com.jianhao.testing;
+package com.wtf.wth;
 
 import android.os.Bundle;
 import org.apache.cordova.*;
