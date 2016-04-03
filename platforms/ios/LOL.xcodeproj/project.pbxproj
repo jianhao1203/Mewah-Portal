@@ -25,7 +25,6 @@
 		F557C23349B84EE68688ED58 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88BCB3788FC045E896DE6620 /* CoreTelephony.framework */; };
 		E9158E29C62441C091B9C8E0 /* CDVSplashScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = D3C5D9F273504ECFB1F31F6E /* CDVSplashScreen.m */; };
 		A10397BA6A2A45588349C5A8 /* CDVViewController+SplashScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D8107BAB1E948AABD8BEAEA /* CDVViewController+SplashScreen.m */; };
-		BCA91DA1A12140C690B1D40C /* APPHiddenStatusbarOverlay.m in Sources */ = {isa = PBXBuildFile; fileRef = 919AA0CF3D7C44CEB23E8D26 /* APPHiddenStatusbarOverlay.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,8 +80,6 @@
 		1D8107BAB1E948AABD8BEAEA /* CDVViewController+SplashScreen.m */ = {isa = PBXFileReference; name = "CDVViewController+SplashScreen.m"; path = "cordova-plugin-splashscreen/CDVViewController+SplashScreen.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
 		61D18845E7DA45228578C0FA /* CDVSplashScreen.h */ = {isa = PBXFileReference; name = "CDVSplashScreen.h"; path = "cordova-plugin-splashscreen/CDVSplashScreen.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
 		553A3004E08D485092783049 /* CDVViewController+SplashScreen.h */ = {isa = PBXFileReference; name = "CDVViewController+SplashScreen.h"; path = "cordova-plugin-splashscreen/CDVViewController+SplashScreen.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		919AA0CF3D7C44CEB23E8D26 /* APPHiddenStatusbarOverlay.m */ = {isa = PBXFileReference; name = "APPHiddenStatusbarOverlay.m"; path = "de.appplant.cordova.plugin.hidden-statusbar-overlay/APPHiddenStatusbarOverlay.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
-		7FA289A0CB574FD6B2B3FD5B /* APPHiddenStatusbarOverlay.h */ = {isa = PBXFileReference; name = "APPHiddenStatusbarOverlay.h"; path = "de.appplant.cordova.plugin.hidden-statusbar-overlay/APPHiddenStatusbarOverlay.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -204,8 +201,6 @@
 				1D8107BAB1E948AABD8BEAEA /* CDVViewController+SplashScreen.m */,
 				61D18845E7DA45228578C0FA /* CDVSplashScreen.h */,
 				553A3004E08D485092783049 /* CDVViewController+SplashScreen.h */,
-				919AA0CF3D7C44CEB23E8D26 /* APPHiddenStatusbarOverlay.m */,
-				7FA289A0CB574FD6B2B3FD5B /* APPHiddenStatusbarOverlay.h */,
 			);
 			name = Plugins;
 			path = "LOL/Plugins";
@@ -327,7 +322,6 @@
 				915287F6B89A428FB17F3B41 /* CDVReachability.m in Sources */,
 				E9158E29C62441C091B9C8E0 /* CDVSplashScreen.m in Sources */,
 				A10397BA6A2A45588349C5A8 /* CDVViewController+SplashScreen.m in Sources */,
-				BCA91DA1A12140C690B1D40C /* APPHiddenStatusbarOverlay.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

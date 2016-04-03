@@ -56,8 +56,7 @@ module.exports.metadata =
     "cordova-plugin-dialogs": "1.2.0",
     "cordova-plugin-network-information": "1.2.0",
     "cordova-plugin-splashscreen": "3.2.1",
-    "cordova-plugin-whitelist": "1.2.1",
-    "de.appplant.cordova.plugin.hidden-statusbar-overlay": "1.2.0"
+    "cordova-plugin-whitelist": "1.2.1"
 };
 // BOTTOM OF METADATA
 });
