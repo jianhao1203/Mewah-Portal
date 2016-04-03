@@ -65,11 +65,11 @@
                             "count": 1
                         },
                         {
-                            "xml": "<permission android:name=\"com.jianhao.testing.permission.C2D_MESSAGE\" android:protectionLevel=\"signature\" />",
+                            "xml": "<permission android:name=\"com.wtf.wth.permission.C2D_MESSAGE\" android:protectionLevel=\"signature\" />",
                             "count": 1
                         },
                         {
-                            "xml": "<uses-permission android:name=\"com.jianhao.testing.permission.C2D_MESSAGE\" />",
+                            "xml": "<uses-permission android:name=\"com.wtf.wth.permission.C2D_MESSAGE\" />",
                             "count": 1
                         }
                     ],
@@ -83,7 +83,7 @@
                             "count": 1
                         },
                         {
-                            "xml": "<receiver android:exported=\"true\" android:name=\"com.google.android.gms.gcm.GcmReceiver\" android:permission=\"com.google.android.c2dm.permission.SEND\"><intent-filter><action android:name=\"com.google.android.c2dm.intent.RECEIVE\" /><category android:name=\"com.jianhao.testing\" /></intent-filter></receiver>",
+                            "xml": "<receiver android:exported=\"true\" android:name=\"com.google.android.gms.gcm.GcmReceiver\" android:permission=\"com.google.android.c2dm.permission.SEND\"><intent-filter><action android:name=\"com.google.android.c2dm.intent.RECEIVE\" /><category android:name=\"com.wtf.wth\" /></intent-filter></receiver>",
                             "count": 1
                         },
                         {
@@ -115,7 +115,7 @@
                 "parents": {
                     "/resources": [
                         {
-                            "xml": "<string name=\"google_app_id\">263977051234</string>",
+                            "xml": "<string name=\"google_app_id\">263977057230</string>",
                             "count": 1
                         }
                     ]
@@ -125,26 +125,26 @@
     },
     "installed_plugins": {
         "cordova-plugin-device": {
-            "PACKAGE_NAME": "com.jianhao.testing"
+            "PACKAGE_NAME": "com.wtf.wth"
         },
         "cordova-plugin-dialogs": {
-            "PACKAGE_NAME": "com.jianhao.testing"
+            "PACKAGE_NAME": "com.wtf.wth"
         },
         "cordova-plugin-network-information": {
-            "PACKAGE_NAME": "com.jianhao.testing"
+            "PACKAGE_NAME": "com.wtf.wth"
         },
         "cordova-plugin-splashscreen": {
-            "PACKAGE_NAME": "com.jianhao.testing"
+            "PACKAGE_NAME": "com.wtf.wth"
         },
         "cordova-plugin-whitelist": {
-            "PACKAGE_NAME": "com.jianhao.testing"
+            "PACKAGE_NAME": "com.wtf.wth"
         },
         "de.appplant.cordova.plugin.hidden-statusbar-overlay": {
-            "PACKAGE_NAME": "com.jianhao.testing"
+            "PACKAGE_NAME": "com.wtf.wth"
         },
         "phonegap-plugin-push": {
-            "SENDER_ID": "263977051234",
-            "PACKAGE_NAME": "com.jianhao.testing"
+            "SENDER_ID": "263977057230",
+            "PACKAGE_NAME": "com.wtf.wth"
         }
     },
     "dependent_plugins": {},
@@ -212,6 +212,6 @@
         "cordova-plugin-splashscreen": "3.2.1",
         "cordova-plugin-whitelist": "1.2.1",
         "de.appplant.cordova.plugin.hidden-statusbar-overlay": "1.2.0",
-        "phonegap-plugin-push": "1.6.1"
+        "phonegap-plugin-push": "1.6.0"
     }
 }

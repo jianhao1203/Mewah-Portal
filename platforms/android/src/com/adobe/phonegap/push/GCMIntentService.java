@@ -520,7 +520,7 @@ public class GCMIntentService extends GcmListenerService implements PushConstant
 
     private void setNotificationLargeIcon(Bundle extras, String packageName, Resources resources, NotificationCompat.Builder mBuilder) {
         String gcmLargeIcon = extras.getString(IMAGE); // from gcm
-        if (gcmLargeIcon != null && !"".equals(gcmLargeIcon)) {
+        if (gcmLargeIcon != null) {
             if (gcmLargeIcon.startsWith("http://") || gcmLargeIcon.startsWith("https://")) {
                 mBuilder.setLargeIcon(getBitmapFromURL(gcmLargeIcon));
                 Log.d(LOG_TAG, "using remote large-icon from gcm");
@@ -550,11 +550,11 @@ public class GCMIntentService extends GcmListenerService implements PushConstant
     private void setNotificationSmallIcon(Context context, Bundle extras, String packageName, Resources resources, NotificationCompat.Builder mBuilder, String localIcon) {
         int iconId = 0;
         String icon = extras.getString(ICON);
-        if (icon != null && !"".equals(icon)) {
+        if (icon != null) {
             iconId = resources.getIdentifier(icon, DRAWABLE, packageName);
             Log.d(LOG_TAG, "using icon from plugin options");
         }
-        else if (localIcon != null && !"".equals(localIcon)) {
+        else if (localIcon != null) {
             iconId = resources.getIdentifier(localIcon, DRAWABLE, packageName);
             Log.d(LOG_TAG, "using icon from plugin options");
         }
@@ -567,14 +567,14 @@ public class GCMIntentService extends GcmListenerService implements PushConstant
 
     private void setNotificationIconColor(String color, NotificationCompat.Builder mBuilder, String localIconColor) {
         int iconColor = 0;
-        if (color != null && !"".equals(color)) {
+        if (color != null) {
             try {
                 iconColor = Color.parseColor(color);
             } catch (IllegalArgumentException e) {
                 Log.e(LOG_TAG, "couldn't parse color from android options");
             }
         }
-        else if (localIconColor != null && !"".equals(localIconColor)) {
+        else if (localIconColor != null) {
             try {
                 iconColor = Color.parseColor(localIconColor);
             } catch (IllegalArgumentException e) {

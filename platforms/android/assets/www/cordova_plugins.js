@@ -65,7 +65,7 @@ module.exports.metadata =
     "cordova-plugin-splashscreen": "3.2.1",
     "cordova-plugin-whitelist": "1.2.1",
     "de.appplant.cordova.plugin.hidden-statusbar-overlay": "1.2.0",
-    "phonegap-plugin-push": "1.6.1"
+    "phonegap-plugin-push": "1.6.0"
 };
 // BOTTOM OF METADATA
 });
