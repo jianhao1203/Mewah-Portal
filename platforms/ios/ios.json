@@ -33,8 +33,6 @@
             },
             "*-Info.plist": {
                 "parents": {
-                    "UIStatusBarHidden": [],
-                    "UIViewControllerBasedStatusBarAppearance": [],
                     "UIBackgroundModes": [
                         {
                             "xml": "<array><string>remote-notification</string></array>",
