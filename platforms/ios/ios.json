@@ -58,6 +58,18 @@
                             "xml": "<array><string>remote-notification</string></array>",
                             "count": 1
                         }
+                    ],
+                    "GCM_SENDER_ID": [
+                        {
+                            "xml": "<string>263977051234</string>",
+                            "count": 1
+                        }
+                    ],
+                    "IS_GCM_ENABLED": [
+                        {
+                            "xml": "<true />",
+                            "count": 1
+                        }
                     ]
                 }
             }
@@ -83,7 +95,7 @@
             "PACKAGE_NAME": "com.jianhao.testing"
         },
         "phonegap-plugin-push": {
-            "SENDER_ID": "263977057230",
+            "SENDER_ID": "263977051234",
             "PACKAGE_NAME": "com.jianhao.testing"
         }
     },
